@@ -26,6 +26,7 @@ nav{
     font-family: arial;
     margin-right: 50px;
     padding-top: 20px;
+    overflow: visible;
  
 }
 
@@ -51,7 +52,7 @@ nav{
 }
 
 #stripes span{
-    height:40px
+    height:40px;
     z-index: -1;
     
     }
@@ -70,17 +71,52 @@ nav{
 
 .customerPictureBox {
     transform: rotate(-12deg);
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
+    width: 830px;
+    margin-left: -10px;
+    display: flex;
+    left: 50%;
 }
 
 
 .customerImgs{
     border: white;
-    border-radius: 38px;
+    margin: 50px;
+    /* border-radius: 38px; */
+    /* margin: 50px; */
    
 }
 
 .CID1 {
     height: 352px;
-    width:512 px;
+    width: 512px;
     background-color: #fff;
+    /* align-self: flex-end; */
+    /* margin: 50px; */
+    border-radius: 38px;
+    overflow: visible;
+    flex-wrap: none;
+
+}
+
+.no-wrap{
+    white-space: nowrap;
+    flex-wrap: none;
+}
+
+#shopifyimg {
+    display: flex;
+    left: 50%;
+    width: 510px;
+    height: fit-content;
+    margin-top: 6px;
+    
+}
+
+.header-text{
+    max-width: 1040px;
+    margin: 0 auto;   
+    align-items:center;
 }
