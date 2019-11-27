@@ -3,40 +3,29 @@ body {
 }
 
 nav{
-    z-index: 1;
+    z-index:
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
     /* original CSS says 62.5% */
     /* height: 25;
     width: 62;
     font-size: 62.5%; */
     font-weight: bold;
-    font-style: bold;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin-right: 220px;
 }
 
 .nav-link{
     font-size: 17px;
-    padding: 20px 20px;
+    padding: 0 10px;
     color: rgb(255,255,255,0);
     font-weight: 500;
     font-family: arial;
-    margin-right: 50px;
-    padding-top: 20px;
-    overflow: visible;
- 
-}
-
-#pricing{
-    margin-right: 100px;
 }
 
 .navbar{
     height: 50px;
-    padding:  auto 0;
 }
 
 #stripes
@@ -52,7 +41,7 @@ nav{
 }
 
 #stripes span{
-    height:40px;
+    height:40px
     z-index: -1;
     
     }
@@ -67,56 +56,4 @@ nav{
     
 #stripeSpan3{
     width:25%;bottom:0;right:0;background:#a1ffc8
-}
-
-.customerPictureBox {
-    transform: rotate(-12deg);
-    flex-wrap: wrap;
-    position: absolute;
-    top: 20px;
-    width: 830px;
-    margin-left: -10px;
-    display: flex;
-    left: 50%;
-}
-
-
-.customerImgs{
-    border: white;
-    margin: 50px;
-    /* border-radius: 38px; */
-    /* margin: 50px; */
-   
-}
-
-.CID1 {
-    height: 352px;
-    width: 512px;
-    background-color: #fff;
-    /* align-self: flex-end; */
-    /* margin: 50px; */
-    border-radius: 38px;
-    overflow: visible;
-    flex-wrap: none;
-
-}
-
-.no-wrap{
-    white-space: nowrap;
-    flex-wrap: none;
-}
-
-#shopifyimg {
-    display: flex;
-    left: 50%;
-    width: 510px;
-    height: fit-content;
-    margin-top: 6px;
-    
-}
-
-.header-text{
-    max-width: 1040px;
-    margin: 0 auto;   
-    align-items:center;
 }

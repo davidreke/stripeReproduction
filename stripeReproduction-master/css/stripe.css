@@ -228,16 +228,6 @@ main header
     {position:relative;top:3px}
     
 #customer-logos [src$="getaround.svg"]
-    {position:relative;top:3px;height:24px}
-    
-.announcement
-    {display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;
-        -webkit-box-align:center;-ms-flex-align:center;align-items:center;
-        width:calc(100% + 40px);width:calc(100% + 20px * 2);padding:10px 20px;
-        margin:0 0 30px -20px;margin:0 0 30px calc(20px * -1);
-        font-size:14px;line-height:17px;font-weight:500;color:#fff;
-        text-decoration:none;background:rgba(0,0,140,.08)}
-        
-        .keyboard-navigation .announcement:focus{-webkit-box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75);box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75)}.announcement .message{-webkit-box-flex:1;-ms-flex:1;flex:1;margin:0 12px}@media (min-width:670px){@supports (width:auto){.announcement{width:auto}}.announcement{line-height:26px;margin:0 0 55px;padding:0 12px 0 5px;border-radius:15px}.announcement .message{margin:0 7px 0 6px}}.announcement .new-pill{padding:0 6px;font-size:12px;line-height:16px;font-weight:600;background:#24b47e;text-transform:uppercase;border-radius:10px}.announcement:after{content:"\27A2";font:normal 16px StripeIcons;position:relative;bottom:1px}
+    {position:relative;top:3px;height:24px}.announcement{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:calc(100% + 40px);width:calc(100% + 20px * 2);padding:10px 20px;margin:0 0 30px -20px;margin:0 0 30px calc(20px * -1);font-size:14px;line-height:17px;font-weight:500;color:#fff;text-decoration:none;background:rgba(0,0,140,.08)}.keyboard-navigation .announcement:focus{-webkit-box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75);box-shadow:0 0 0 1.5px hsla(0,0%,100%,.75)}.announcement .message{-webkit-box-flex:1;-ms-flex:1;flex:1;margin:0 12px}@media (min-width:670px){@supports (width:auto){.announcement{width:auto}}.announcement{line-height:26px;margin:0 0 55px;padding:0 12px 0 5px;border-radius:15px}.announcement .message{margin:0 7px 0 6px}}.announcement .new-pill{padding:0 6px;font-size:12px;line-height:16px;font-weight:600;background:#24b47e;text-transform:uppercase;border-radius:10px}.announcement:after{content:"\27A2";font:normal 16px StripeIcons;position:relative;bottom:1px}
 
 /*# sourceMappingURL=index-6c0bb3d1bc8d0c3af772.min.css.map*/
