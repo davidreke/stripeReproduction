@@ -150,3 +150,10 @@ nav{
 .header {
     position: relative;
 }
+
+.footer{
+    background-color: #F6F9FC;
+    height: 475px;
+    position: relative;
+    bottom: 0;
+}
