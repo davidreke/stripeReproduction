@@ -1,5 +1,6 @@
 body {
     background-color:#5533FF ;
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
 }
 
 nav{
@@ -14,7 +15,6 @@ nav{
     font-size: 62.5%; */
     font-weight: bold;
     font-style: bold;
-    font-family: 'Open Sans Condensed', sans-serif;
     margin-right: 220px;
 }
 
@@ -48,14 +48,14 @@ nav{
     -webkit-transform-origin:0;
     transform-origin:0;
     background:linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
-    position: absolute;
+    position: relative;
     height: 760px;
 }
 
 #stripes span{
-    height:40px;å
+    height:40px;
     z-index: -1;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     }
 
@@ -98,7 +98,7 @@ nav{
 .customerPictureBox {
     transform: rotate(-12deg);
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 830px;
     margin-left: -10px;
@@ -156,4 +156,31 @@ nav{
     height: 475px;
     position: relative;
     bottom: 0;
+}
+
+.footer a{
+    color: #8898aa;
+}
+
+.footer ul{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.footer h4{
+    font-size: 14px;
+    font-weight:600;
+    font:bold;
+    color: #8898aa;
+    line-height: 30px;
+}
+
+#footer-location a{
+    color: #6772e5 !important;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 15px;
 }
