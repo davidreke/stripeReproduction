@@ -184,3 +184,70 @@ nav{
     line-height: 30px;
     font-size: 15px;
 }
+
+.ready-section {
+    background-color: #F6F9FC;
+}
+
+.ready-buttons{
+    display: flex;
+    flex: flex-end;
+}
+
+.ready-buttons button{
+    margin: 20px;
+    height: 40px;
+}
+
+.ready-headings h5{
+ font-weight: 300;
+ color: #6772e5;
+ font-size: 30px;
+ line-height: 45px;
+ display: block;
+ margin: 20px;
+}
+
+.ready-headings h6{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #32325d;
+    margin: 20px;
+}
+
+.start{
+    background-color: #6772e5;
+    border-color: #6772e5;
+    box-shadow: 2px 2px;
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 14px;
+}
+
+.contact{
+    color: #6772e5;
+    border-color: #6772e5;
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 14px;
+}
+
+.ready-buttons{
+    line-height: 90px;
+    justify-content: flex-end;
+    padding: 45px;
+}
+
+.card-section{
+    background-color: #F6F9FC;
+}
+
+.card-section svg{
+    height: 130px;
+    width:130px;
+}
