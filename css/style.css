@@ -250,4 +250,45 @@ nav{
 .card-section svg{
     height: 130px;
     width:130px;
+    position: relative;
+    top: 50%;
+    left: -35px;
+    /* float: left; */
+}
+
+.green-card h5{
+    margin: 0 0 5px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: .025em;
+    color: #24b47e;
+}
+
+.blue-card h5{
+      margin: 0 0 5px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: .025em;
+    color: #3297d3;
+}
+
+.card-section p{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #525f7f;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;  
+}
+
+
+
+.card-section .card{
+    overflow:hidden;
+    /* padding: 40px 40px 40px 120px; */
 }
