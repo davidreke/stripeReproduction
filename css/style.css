@@ -1,5 +1,5 @@
 body {
-    background-color:#5533FF ;
+    background-color: #F6F9FC ;
     font-family: Camphor,Open Sans,Segoe UI,sans-serif;
 }
 
@@ -290,5 +290,77 @@ nav{
 
 .card-section .card{
     overflow:hidden;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     /* padding: 40px 40px 40px 120px; */
+}
+
+.customers{
+    background-color: #F6F9FC;
+    
+}
+
+.customers img{
+  height: 16px;
+
+}
+
+.customers ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.customers li{
+    float:left;
+}
+
+.customers ul:hover{
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+.customers button{
+    position: relative;
+    top:50%;
+    bottom: 50%;
+    left: 50%;
+    right:50%;
+    display:none;
+}
+.customers button:hover{
+    display: block;
+}
+
+.benefits h2{
+    color: #24b47e;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: .025em;
+}
+
+.benefits h3{
+    color: #6672e5;
+    margin: 15px 0 18px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.benefits p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #525f7f;
+    margin: 5px 0 0;
+}
+
+.benefits .card {
+    padding: 20px;
+    height: 450px;
+}
+
+.developers ul{
+    float:right;
 }
